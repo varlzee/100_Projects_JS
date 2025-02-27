@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    --headingFont: "Young Serif", serif;
+    --paragraphFont: "Outfit", serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+}
+#birthDate{
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    width: 18rem;
+}
+button{
+    padding: 2% 3%;
+    width: 40%;
+    margin-left: 30%;
+}

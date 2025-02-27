@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    --patelPurple : #C599B6;
+    --paleRose : #E6B2BA;
+    --lightSalmonPink : #FAD0C4;
+    --softPeach : #FFF7F3;
+    --headingFont : "Alegreya Sans SC", serif;
+    --paragraphFont : "Josefin Sans", serif;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--lightSalmonPink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero_section{
+    padding: 2%;
+    border-radius: 8px;
+    text-align: center;
+    background-color: var(--paleRose);
+}
+h1{
+    font-family: var(--headingFont);
+}
+
+p{
+    font-family: var(--paragraphFont);
+    font-size: 1rem;
+}
+#billAmount, #tipPercentage{
+    padding:  1% 5%;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--softPeach);
+    font-family: var(--paragraphFont);
+    text-align: center;
+}
+#calculate{
+    margin-top: 4%;
+    padding: 1.5% 7%;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--softPeach);
+    font-family: var(--headingFont);
+    font-weight: 500;
+}
