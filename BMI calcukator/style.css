@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Mada:wght@200..900&display=swap');
+
+:root{
+    --deepIndigo : #2D336B;
+    --coolLvender : #7886C7;
+    --lightPeriwinkle : #A9B5DF;
+    --lavenderBlush : #FFF2F2;
+    --headingFont : "Mada", serif;
+    --paragraphFont : "Libre Franklin", serif;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: var(--deepIndigo);
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    padding: 2%;
+    background-color: var(--coolLvender);
+    text-align: center;
+}
+h1{
+    font-family: var(--headingFont);
+}
+p{
+    font-family: var(--paragraphFont);
+    font-weight: 400;
+}
+
+#calculate{
+    padding: 2% 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 35%;
+    font-family: var(--headingFont);
+    background-color: var(--lavenderBlush);
+    border: none;
+    border-radius: 8px;
+}
+#height, #weight, #computeResult{
+    background-color: var(--lavenderBlush);
+    padding: 1.5% 4%;
+    border: none;
+    border-radius: 5px;
+}
