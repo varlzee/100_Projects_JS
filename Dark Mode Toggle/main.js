@@ -21,6 +21,6 @@ input.addEventListener('click', ()=>{
         body.style.backgroundColor = 'white';
 
         localStorage.setItem('backgroundColor', 'white');
-        localStorage.removeItem('checkedItem');
+        localStorage.setItem('checkedItem', false);
     }
 });

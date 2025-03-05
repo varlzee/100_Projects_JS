@@ -1,0 +1,35 @@
+body{
+    background-color: #C1CFA1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #A5B68D;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+#decrease{
+    width: 60px;
+    background-color: red;
+}
+#resetBtn{
+    background-color: gray;
+    width: 80px;
+}
+#increase{
+    width: 60px;
+    height: 25%;
+    background-color: green;
+    
+}
