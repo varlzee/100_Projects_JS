@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --pastelPink : #E6B2BA;
+    --peachPink : #FAD0C4;
+    --blushWhite : #FFF7F3;
+    --heading : "Rubik", sans-serif;
+    --paragraph : "Lobster Two", sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--peachPink);
+}
+
+.container{
+    padding: 3%;
+    background-color: var(--pastelPink);
+}
+
+h1{
+    font-family: var(--paragraph);
+}
+
+#password{
+    padding: 2.5% 5%;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--blushWhite);
+}
+
+p{
+    font-family: var(--heading);
+}
+
+#generateBtn{
+    padding: 1.5% 4%;
+    background-color: var(--blushWhite);
+    border: none;
+    border-radius: 8px;
+}
