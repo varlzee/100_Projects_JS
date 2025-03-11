@@ -3,13 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const authorText = document.getElementById("author");
     const generateBtn = document.getElementById("generateBtn");
 
-    // Function to fetch and display a new quote
     async function fetchQuote() {
         try {
             quoteText.textContent = "Loading...";
             authorText.textContent = "";
 
-            let response = await fetch("https://api.quotable.io/random");
+            let response = await fetch("https://dummyjson.com/");
             let data = await response.json();
 
             quoteText.textContent = `"${data.content}"`;
@@ -23,6 +22,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     generateBtn.addEventListener("click", fetchQuote);
 
-    // Fetch a quote on page load
     fetchQuote();
 });
