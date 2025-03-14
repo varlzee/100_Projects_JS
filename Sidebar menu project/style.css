@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&family=Loved+by+the+King&family=Quicksand:wght@300..700&display=swap');
+
+:root{
+    --brown : #B17F59;
+    --green : #A5B68D;
+    --green2 : #C1CFA1;
+    --cream : #EDE8DC;
+
+    --heading : "Quicksand", sans-serif;
+    --subHeading : "Loved by the King", cursive;
+    --paragraph : "Biryani", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--green);
+    height: 100vh;
+    display: flex;
+}
+
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -400px;
+    width: 400px;
+    height: 100%;
+    background-color: var(--green2);
+    padding: 3%;
+    transition: left 0.3s ease;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column; 
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 32px;
+    margin-bottom: 3%;
+    font-family: var(--heading);
+    color: var(--brown);
+}
+
+a:hover{
+    background-color: var(--cream);
+}
+h2{
+    font-family: var(--subHeading);
+    font-size: 42px;
+    color: var(--brown);
+}
